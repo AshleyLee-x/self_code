@@ -9,7 +9,7 @@
 
 # nothing
 
-_Get started using GitHub in less than an hour._
+_just some of the self code here_
 
 </header>
 
@@ -21,11 +21,11 @@ _Get started using GitHub in less than an hour._
   Encourage users to open new tabs for steps!
 -->
 
-## Step 1: Create a branch
+## Step 1: close it (it`s still being tested)
 
-_Welcome to "Introduction to GitHub"! :wave:_
+_Nice to be here! :wave:_
 
-**What is GitHub?**: GitHub is a collaboration platform that uses _[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_ for versioning. GitHub is a popular place to share and contribute to [open-source](https://docs.github.com/get-started/quickstart/github-glossary#open-source) software.
+**showing waht?**: try to link some HTML _[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_ . GitHub is a popular place to share and contribute to [open-source](https://docs.github.com/get-started/quickstart/github-glossary#open-source) software.
 <br>:tv: [Video: What is GitHub?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
 
 **What is a repository?**: A _[repository](https://docs.github.com/get-started/quickstart/github-glossary#repository)_ is a project containing files and folders. A repository tracks versions of files and folders. For more information, see "[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)" from GitHub Docs.
