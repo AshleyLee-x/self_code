@@ -1,0 +1,4 @@
+(base) PS C:\nnUNet_v2_project> conda activate nnunet
+(nnunet) PS C:\nnUNet_v2_project> cd nnUNet
+(nnunet) PS C:\nnUNet_v2_project\nnUNet> cd SelfCode_val
+(nnunet) PS C:\nnUNet_v2_project\nnUNet\SelfCode_val> python DataTaskForm_OfficialChange.py

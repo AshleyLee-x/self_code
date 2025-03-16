@@ -1,0 +1,506 @@
+{
+    "foreground_mean": {
+        "Dice": 0.7807416635363329,
+        "FN": 6350.266666666666,
+        "FP": 4654.9,
+        "IoU": 0.6496315421562112,
+        "TN": 227866.1,
+        "TP": 23272.733333333334,
+        "n_pred": 27927.633333333335,
+        "n_ref": 29623.0
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.7807416635363329,
+            "FN": 6350.266666666666,
+            "FP": 4654.9,
+            "IoU": 0.6496315421562112,
+            "TN": 227866.1,
+            "TP": 23272.733333333334,
+            "n_pred": 27927.633333333335,
+            "n_ref": 29623.0
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8093236704000727,
+                    "FN": 6204,
+                    "FP": 2189,
+                    "IoU": 0.6797176111429116,
+                    "TN": 235939,
+                    "TP": 17812,
+                    "n_pred": 20001,
+                    "n_ref": 24016
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_1.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_1.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7811965249440569,
+                    "FN": 17543,
+                    "FP": 9053,
+                    "IoU": 0.6409536409536409,
+                    "TN": 188070,
+                    "TP": 47478,
+                    "n_pred": 56531,
+                    "n_ref": 65021
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_10.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_10.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8393083087304934,
+                    "FN": 2811,
+                    "FP": 3285,
+                    "IoU": 0.7231104651162791,
+                    "TN": 240128,
+                    "TP": 15920,
+                    "n_pred": 19205,
+                    "n_ref": 18731
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_11.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_11.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8828077287906547,
+                    "FN": 4360,
+                    "FP": 4659,
+                    "IoU": 0.7902021447346996,
+                    "TN": 219155,
+                    "TP": 33970,
+                    "n_pred": 38629,
+                    "n_ref": 38330
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_12.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_12.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8424023629799803,
+                    "FN": 1513,
+                    "FP": 888,
+                    "IoU": 0.7277160353821728,
+                    "TN": 253326,
+                    "TP": 6417,
+                    "n_pred": 7305,
+                    "n_ref": 7930
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_13.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_13.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8235148820550822,
+                    "FN": 844,
+                    "FP": 585,
+                    "IoU": 0.6999790048288893,
+                    "TN": 257381,
+                    "TP": 3334,
+                    "n_pred": 3919,
+                    "n_ref": 4178
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_14.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_14.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8106786427145709,
+                    "FN": 5554,
+                    "FP": 2034,
+                    "IoU": 0.6816312830410338,
+                    "TN": 238310,
+                    "TP": 16246,
+                    "n_pred": 18280,
+                    "n_ref": 21800
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_15.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_15.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8786196820328209,
+                    "FN": 5996,
+                    "FP": 10121,
+                    "IoU": 0.783516232588752,
+                    "TN": 187695,
+                    "TP": 58332,
+                    "n_pred": 68453,
+                    "n_ref": 64328
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_16.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_16.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5367765736684345,
+                    "FN": 647,
+                    "FP": 5380,
+                    "IoU": 0.36684525685471164,
+                    "TN": 252625,
+                    "TP": 3492,
+                    "n_pred": 8872,
+                    "n_ref": 4139
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_17.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_17.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6013641954601364,
+                    "FN": 2890,
+                    "FP": 675,
+                    "IoU": 0.4299648225135913,
+                    "TN": 255890,
+                    "TP": 2689,
+                    "n_pred": 3364,
+                    "n_ref": 5579
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_18.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_18.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7503142552548252,
+                    "FN": 26027,
+                    "FP": 5357,
+                    "IoU": 0.6004023478781243,
+                    "TN": 183605,
+                    "TP": 47155,
+                    "n_pred": 52512,
+                    "n_ref": 73182
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_19.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_19.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8652396784875099,
+                    "FN": 11471,
+                    "FP": 8430,
+                    "IoU": 0.7624867226008187,
+                    "TN": 178355,
+                    "TP": 63888,
+                    "n_pred": 72318,
+                    "n_ref": 75359
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_2.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_2.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5040757296870891,
+                    "FN": 303,
+                    "FP": 3469,
+                    "IoU": 0.33696607488135,
+                    "TN": 256455,
+                    "TP": 1917,
+                    "n_pred": 5386,
+                    "n_ref": 2220
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_20.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_20.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7307403701850925,
+                    "FN": 3176,
+                    "FP": 5436,
+                    "IoU": 0.5757217459848261,
+                    "TN": 241846,
+                    "TP": 11686,
+                    "n_pred": 17122,
+                    "n_ref": 14862
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_21.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_21.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6605809715882957,
+                    "FN": 8059,
+                    "FP": 1534,
+                    "IoU": 0.49318469991546915,
+                    "TN": 243216,
+                    "TP": 9335,
+                    "n_pred": 10869,
+                    "n_ref": 17394
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_22.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_22.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7936850927853953,
+                    "FN": 23981,
+                    "FP": 7527,
+                    "IoU": 0.6579418757395807,
+                    "TN": 170031,
+                    "TP": 60605,
+                    "n_pred": 68132,
+                    "n_ref": 84586
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_23.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_23.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8204966197005118,
+                    "FN": 12520,
+                    "FP": 7367,
+                    "IoU": 0.6956288836511678,
+                    "TN": 196806,
+                    "TP": 45451,
+                    "n_pred": 52818,
+                    "n_ref": 57971
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_24.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_24.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8446634304881352,
+                    "FN": 7981,
+                    "FP": 6931,
+                    "IoU": 0.731097286087819,
+                    "TN": 206689,
+                    "TP": 40543,
+                    "n_pred": 47474,
+                    "n_ref": 48524
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_25.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_25.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8459432141872646,
+                    "FN": 6927,
+                    "FP": 9839,
+                    "IoU": 0.7330169750629001,
+                    "TN": 199346,
+                    "TP": 46032,
+                    "n_pred": 55871,
+                    "n_ref": 52959
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_26.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_26.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8515342447057753,
+                    "FN": 3204,
+                    "FP": 3323,
+                    "IoU": 0.7414537532184591,
+                    "TN": 236899,
+                    "TP": 18718,
+                    "n_pred": 22041,
+                    "n_ref": 21922
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_27.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_27.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7813505890160942,
+                    "FN": 8127,
+                    "FP": 5051,
+                    "IoU": 0.6411610935627927,
+                    "TN": 225420,
+                    "TP": 23546,
+                    "n_pred": 28597,
+                    "n_ref": 31673
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_28.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_28.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6809903826478412,
+                    "FN": 6622,
+                    "FP": 15204,
+                    "IoU": 0.516289171579274,
+                    "TN": 217022,
+                    "TP": 23296,
+                    "n_pred": 38500,
+                    "n_ref": 29918
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_29.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_29.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8760987357013847,
+                    "FN": 224,
+                    "FP": 805,
+                    "IoU": 0.7795157488750803,
+                    "TN": 257477,
+                    "TP": 3638,
+                    "n_pred": 4443,
+                    "n_ref": 3862
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_3.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_3.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7398105145829463,
+                    "FN": 3313,
+                    "FP": 3690,
+                    "IoU": 0.5870629164455451,
+                    "TN": 245185,
+                    "TP": 9956,
+                    "n_pred": 13646,
+                    "n_ref": 13269
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_30.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_30.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8507375398011566,
+                    "FN": 5682,
+                    "FP": 3506,
+                    "IoU": 0.7402465226733009,
+                    "TN": 226772,
+                    "TP": 26184,
+                    "n_pred": 29690,
+                    "n_ref": 31866
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_4.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_4.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.753773987206823,
+                    "FN": 1795,
+                    "FP": 1092,
+                    "IoU": 0.6048453326033397,
+                    "TN": 254838,
+                    "TP": 4419,
+                    "n_pred": 5511,
+                    "n_ref": 6214
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_5.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_5.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8171500630517023,
+                    "FN": 287,
+                    "FP": 1018,
+                    "IoU": 0.6908315565031983,
+                    "TN": 257923,
+                    "TP": 2916,
+                    "n_pred": 3934,
+                    "n_ref": 3203
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_6.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_6.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8821573697820465,
+                    "FN": 3184,
+                    "FP": 2877,
+                    "IoU": 0.7891606080634501,
+                    "TN": 233397,
+                    "TP": 22686,
+                    "n_pred": 25563,
+                    "n_ref": 25870
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_7.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_7.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.794887319206189,
+                    "FN": 1524,
+                    "FP": 1525,
+                    "IoU": 0.6595958468237133,
+                    "TN": 253187,
+                    "TP": 5908,
+                    "n_pred": 7433,
+                    "n_ref": 7432
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_8.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_8.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7720272262476083,
+                    "FN": 7739,
+                    "FP": 6797,
+                    "IoU": 0.6287006053794477,
+                    "TN": 222995,
+                    "TP": 24613,
+                    "n_pred": 31410,
+                    "n_ref": 32352
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset003_Grayscale\\nnUNetTrainer__nnUNetPlans__2d\\crossval_results_folds_0_1_2_3_4\\test_9.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_raw\\Dataset003_Grayscale\\labelsTr\\test_9.png"
+        }
+    ]
+}

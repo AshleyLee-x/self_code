@@ -1,0 +1,2 @@
+***Run inference like this:***
+nnUNetv2_predict -d 777 -i INPUT_FOLDER -o OUTPUT_FOLDER -f  0 1 2 3 4 -tr nnUNetTrainer -c 2d -p nnUNetPlans

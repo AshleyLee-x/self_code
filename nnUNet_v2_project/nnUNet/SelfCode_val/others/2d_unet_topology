@@ -1,0 +1,52 @@
+// 2D U-Net Topology
+digraph {
+	node [fontname="Helvetica,Arial,sans-serif"]
+	edge [fontname="Helvetica,Arial,sans-serif"]
+	dpi=300 rankdir=TB size="8,8"
+	Params [label="Params
+Patch Size: (512, 512)
+Batch Size: 10
+Median Shape: ('NA', 512, 512)
+Target Spacing: ('Na', 1, 1)" shape=box]
+	Encoder_0 [label="Encoder Layer 0
+Feature Maps: 32" shape=box]
+	Params -> Encoder_0
+	Encoder_1 [label="Encoder Layer 1
+Feature Maps: 64" shape=box]
+	Encoder_0 -> Encoder_1
+	Encoder_2 [label="Encoder Layer 2
+Feature Maps: 128" shape=box]
+	Encoder_1 -> Encoder_2
+	Encoder_3 [label="Encoder Layer 3
+Feature Maps: 256" shape=box]
+	Encoder_2 -> Encoder_3
+	Encoder_4 [label="Encoder Layer 4
+Feature Maps: 512" shape=box]
+	Encoder_3 -> Encoder_4
+	Bottleneck [label="Bottleneck
+Feature Maps: 1024" shape=box]
+	Encoder_4 -> Bottleneck
+	Decoder_4 [label="Decoder Layer 4
+Feature Maps: 512" shape=box]
+	Bottleneck -> Decoder_4
+	Encoder_4 -> Decoder_4 [style=dashed]
+	Decoder_3 [label="Decoder Layer 3
+Feature Maps: 256" shape=box]
+	Decoder_4 -> Decoder_3
+	Encoder_3 -> Decoder_3 [style=dashed]
+	Decoder_2 [label="Decoder Layer 2
+Feature Maps: 128" shape=box]
+	Decoder_3 -> Decoder_2
+	Encoder_2 -> Decoder_2 [style=dashed]
+	Decoder_1 [label="Decoder Layer 1
+Feature Maps: 64" shape=box]
+	Decoder_2 -> Decoder_1
+	Encoder_1 -> Decoder_1 [style=dashed]
+	Decoder_0 [label="Decoder Layer 0
+Feature Maps: 32" shape=box]
+	Decoder_1 -> Decoder_0
+	Encoder_0 -> Decoder_0 [style=dashed]
+	Output [label="Output
+Feature Maps: 1" shape=box]
+	Decoder_0 -> Output
+}

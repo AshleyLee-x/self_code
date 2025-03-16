@@ -1,0 +1,7 @@
+#运行修改过的run_trianing_official.py
+#training in CMD
+nnUNetv2_train 777 2d 0
+nnUNetv2_train 777 2d 1
+nnUNetv2_train 777 2d 2
+nnUNetv2_train 777 2d 3
+nnUNetv2_train 777 2d 4

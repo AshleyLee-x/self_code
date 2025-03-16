@@ -1,0 +1,122 @@
+{
+    "foreground_mean": {
+        "Dice": 0.817150062933267,
+        "FN": 7187.333333333333,
+        "FP": 4444.666666666667,
+        "IoU": 0.6930952717530666,
+        "TN": 223956.66666666666,
+        "TP": 26555.333333333332,
+        "n_pred": 31000.0,
+        "n_ref": 33742.666666666664
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.817150062933267,
+            "FN": 7187.333333333333,
+            "FP": 4444.666666666667,
+            "IoU": 0.6930952717530666,
+            "TN": 223956.66666666666,
+            "TP": 26555.333333333332,
+            "n_pred": 31000.0,
+            "n_ref": 33742.666666666664
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7806920572423715,
+                    "FN": 21629,
+                    "FP": 7335,
+                    "IoU": 0.6402747245923222,
+                    "TN": 181627,
+                    "TP": 51553,
+                    "n_pred": 58888,
+                    "n_ref": 73182
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset001_mytask\\nnUNetTrainer__nnUNetPlans__2d\\fold_2\\validation\\test_19.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_preprocessed\\Dataset001_mytask\\gt_segmentations\\test_19.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8533788663098717,
+                    "FN": 12136,
+                    "FP": 9589,
+                    "IoU": 0.7442553091302915,
+                    "TN": 177196,
+                    "TP": 63223,
+                    "n_pred": 72812,
+                    "n_ref": 75359
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset001_mytask\\nnUNetTrainer__nnUNetPlans__2d\\fold_2\\validation\\test_2.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_preprocessed\\Dataset001_mytask\\gt_segmentations\\test_2.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7762249536959084,
+                    "FN": 3337,
+                    "FP": 3308,
+                    "IoU": 0.6342872867363787,
+                    "TN": 243974,
+                    "TP": 11525,
+                    "n_pred": 14833,
+                    "n_ref": 14862
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset001_mytask\\nnUNetTrainer__nnUNetPlans__2d\\fold_2\\validation\\test_21.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_preprocessed\\Dataset001_mytask\\gt_segmentations\\test_21.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8804882938673676,
+                    "FN": 2159,
+                    "FP": 3206,
+                    "IoU": 0.7864931550461637,
+                    "TN": 237016,
+                    "TP": 19763,
+                    "n_pred": 22969,
+                    "n_ref": 21922
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset001_mytask\\nnUNetTrainer__nnUNetPlans__2d\\fold_2\\validation\\test_27.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_preprocessed\\Dataset001_mytask\\gt_segmentations\\test_27.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8418552036199095,
+                    "FN": 141,
+                    "FP": 1257,
+                    "IoU": 0.7268997851142801,
+                    "TN": 257025,
+                    "TP": 3721,
+                    "n_pred": 4978,
+                    "n_ref": 3862
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset001_mytask\\nnUNetTrainer__nnUNetPlans__2d\\fold_2\\validation\\test_3.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_preprocessed\\Dataset001_mytask\\gt_segmentations\\test_3.png"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7702610028641736,
+                    "FN": 3722,
+                    "FP": 1973,
+                    "IoU": 0.6263613698989634,
+                    "TN": 246902,
+                    "TP": 9547,
+                    "n_pred": 11520,
+                    "n_ref": 13269
+                }
+            },
+            "prediction_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_results\\Dataset001_mytask\\nnUNetTrainer__nnUNetPlans__2d\\fold_2\\validation\\test_30.png",
+            "reference_file": "C:\\Users\\lenovo\\nnUNet\\nnUNet_preprocessed\\Dataset001_mytask\\gt_segmentations\\test_30.png"
+        }
+    ]
+}

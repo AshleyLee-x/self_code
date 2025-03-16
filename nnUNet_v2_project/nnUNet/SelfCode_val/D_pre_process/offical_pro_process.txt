@@ -1,0 +1,5 @@
+nnUNetv2_plan_and_preprocess -d 777 --verify_dataset_integrity
+
+#另外官方建议可以使用新版本的语句选择设备配置，新语句：
+nnUNetv2_plan_and_preprocess -d 777 -pl nnUNetPlannerResEnc (M/L/XL)【其中M、L、XL选填其一】
+

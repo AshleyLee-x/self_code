@@ -1,0 +1,4 @@
+ #nnUNetv2_predict -d 777 -i INPUT_FOLDER -o OUTPUT_FOLDER -f  0 1 2 3 4 -tr nnUNetTrainer -c 2d -p nnUNetPlans:
+ nnUNetv2_predict -d 777 -i C:/nnUNet_v2_project/nnUNet/DATASET/nnUNet_raw/Dataset777_Cells/imagesTs -o nnUNet_predict_result/Dataset777_result -f  0 1 2 3 4 -tr nnUNetTrainer -c 2d -p nnUNetPlans
+
+

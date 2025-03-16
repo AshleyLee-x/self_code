@@ -1,0 +1,20 @@
+nnUNetv2_train 777 2d 0  --val --npz
+nnUNetv2_train 777 2d 1  --val --npz
+nnUNetv2_train 777 2d 2  --val --npz
+nnUNetv2_train 777 2d 3  --val --npz
+nnUNetv2_train 777 2d 4  --val --npz
+#运行find_best_configuration.py
+code path:nnunetv2/evaluation/find_best_configuration.py
+#运行结果：
+***All results:***
+nnUNetTrainer__nnUNetPlans__2d: 0.8201168350447768
+*Best*: nnUNetTrainer__nnUNetPlans__2d: 0.8201168350447768
+***Determining postprocessing for best model/ensemble***
+Removing all but the largest foreground region did not improve results!
+***Run inference like this:***
+nnUNetv2_predict -d 777 -i INPUT_FOLDER -o OUTPUT_FOLDER -f  0 1 2 3 4 -tr nnUNetTrainer -c 2d -p nnUNetPlans
+***Once inference is completed, run postprocessing like this:***
+nnUNetv2_apply_postprocessing -i OUTPUT_FOLDER -o OUTPUT_FOLDER_PP -pp_pkl_file C:\nnUNet_v2_project\nnUNet\DATASET\nnUNet_results\Dataset777_Cells\nnUNetTrainer__nnUNetPlans__2d\crossval_results_folds_0_1_2_3_4\postprocessing.pkl -np 8 -plans_json C:\nnUNet_v2_project\nnUNet\DATASET\nnUNet_results\Dataset777_Cells\nnUNetTrainer__nnUNetPlans__2d\crossval_results_folds_0_1_2_3_4\plans.json
+进程已结束，退出代码为 0
+
+

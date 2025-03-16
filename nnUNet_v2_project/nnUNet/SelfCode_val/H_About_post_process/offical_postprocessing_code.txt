@@ -1,0 +1,4 @@
+#run postprocessing like this:
+nnUNetv2_apply_postprocessing -i OUTPUT_FOLDER -o OUTPUT_FOLDER_PP -pp_pkl_file C:\nnUNet_v2_project\nnUNet\DATASET\nnUNet_results\Dataset777_Cells\nnUNetTrainer__nnUNetPlans__2d\crossval_results_folds_0_1_2_3_4\postprocessing.pkl -np 8 -plans_json C:\nnUNet_v2_project\nnUNet\DATASET\nnUNet_results\Dataset777_Cells\nnUNetTrainer__nnUNetPlans__2d\crossval_results_folds_0_1_2_3_4\plans.json
+
+nnUNetv2_apply_postprocessing -i C:/nnUNet_v2_project/nnUNet_predict_result/Dataset777_result -o C:/nnUNet_v2_project/nnUNet_predict_result/Dataset777_result_pp -pp_pkl_file C:\nnUNet_v2_project\nnUNet\DATASET\nnUNet_results\Dataset777_Cells\nnUNetTrainer__nnUNetPlans__2d\crossval_results_folds_0_1_2_3_4\postprocessing.pkl -np 8 -plans_json C:\nnUNet_v2_project\nnUNet\DATASET\nnUNet_results\Dataset777_Cells\nnUNetTrainer__nnUNetPlans__2d\crossval_results_folds_0_1_2_3_4\plans.json

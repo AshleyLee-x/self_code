@@ -1,0 +1,5 @@
+***All results:***
+nnUNetTrainer__nnUNetPlans__2d: 0.8201168350447768
+*Best*: nnUNetTrainer__nnUNetPlans__2d: 0.8201168350447768
+***Determining postprocessing for best model/ensemble***
+Removing all but the largest foreground region did not improve results!
