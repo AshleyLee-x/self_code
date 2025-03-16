@@ -1,0 +1,3 @@
+#imageio 支持多种图像格式，如 PNG、JPEG、GIF 等，以及视频格式如 MP4、AVI 等
+##由于我们本次使用的dataset是PNG格式则在plans.json中的image_reader_writer": "NaturalImage2DIO"
+##则当前代码中我们仅使用natural_image_rader_writer.py
